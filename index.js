@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 
 //PORT
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 // Real link
 const DBURI = process.env.MONGODB_URI; 
